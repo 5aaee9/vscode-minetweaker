@@ -2,7 +2,7 @@
     "name": "zenscript",
     "displayName": "ZenScript Syntax Highlighting",
     "description": "Syntax highlighting for ZenScript .",
-    "version": "0.1.0",
+    "version": "0.0.2",
     "publisher": "Indexyz",
     "engines": {
         "vscode": "^0.10.10"
@@ -14,10 +14,10 @@
     "contributes": {
         "languages": [
             {
-                "id": "zenscript",
+                "id": "ZenScript",
                 "aliases": [
-                    "zenscript",
-                    "ZenScript"
+                    "ZenScript",
+					"zenscript"
                 ],
                 "extensions": [
                     ".zs"
@@ -27,18 +27,18 @@
         ],
         "grammars": [
             {
-                "language": "zenscript",
+                "language": "ZenScript",
                 "scopeName": "text.minetweaker",
                 "path": "./syntaxes/zenscript.tmLanguage"
             }
         ],
         "snippets": [
             {
-                "language": "zenscript",
+                "language": "ZenScript",
                 "path": "./snippets/zenscript.json"
             },
-            {
-                "language": "zenscript",
+			{
+                "language": "ZenScript",
                 "path": "./snippets/neisupport.json"
             }
         ]
