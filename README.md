@@ -6,7 +6,7 @@ The Highlighting File if from https://github.com/Nincraft/minetweaker-syntax-hig
 Installation instructions:
 
 * Open VS Code
-* Open command panel with `⌘ + P` (Mac) or `F1` (Windows)
+* Open command panel with `⌘ + P` (Mac) or `Ctrl + P` (Windows)
 * Type `ext install zenscript` and it should come right up.
 * Not working? r18@iinde.xyz and harass me!
 
