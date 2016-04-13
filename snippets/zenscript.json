@@ -207,5 +207,12 @@
             "${item}.displayName = \"${value}\";"
         ],
         "description": "Set item display name"
+    },
+    "Null":{
+        "prefix":"null",
+        "body":[
+            "null"
+        ],
+        "description": "Empty Value"
     }
 }

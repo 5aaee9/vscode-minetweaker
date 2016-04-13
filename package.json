@@ -36,6 +36,10 @@
             {
                 "language": "zenscript",
                 "path": "./snippets/zenscript.json"
+            },
+            {
+                "language": "zenscript",
+                "path": "./snippets/neisupport.json"
             }
         ]
     }
