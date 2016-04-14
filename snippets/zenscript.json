@@ -141,70 +141,70 @@
     "SetFuel":{
         "prefix":"setfuel",
         "body":[
-            "furnace.setFuel(${item}, ${value]});"
+            "furnace.setFuel(${item}, ${value});"
         ],
         "description": "Set Furnace Fuel"
     },
     "WithTag":{
         "prefix":"withtag",
         "body":[
-            "${item}.withTag(${tag});"
+            "withTag(${tag})"
         ],
         "description": "Items with tag"
     },
     "WithDamage":{
         "prefix":"withdamage",
         "body":[
-            "${item}.withDamage(${value});"
+            "withDamage(${value})"
         ],
         "description": "Item with damage"
     },
     "OnlyWithTag":{
         "prefix":"onlywithtag",
         "body":[
-            "${item}.onlyWithTag(${value});"
+            "onlyWithTag(${value})"
         ],
         "description":"Item with tag only"
     },
     "OnlyDamageAtLeast":{
         "prefix":"onlydamageatleast",
         "body":[
-            "${item}.onlyDamageAtLeast(${value});"
+            "onlyDamageAtLeast(${value})"
         ],
         "description": "Least with damage"
     },
     "OnlyDamageAtMost":{
         "prefix":"onlydamageatMost",
         "body":[
-            "${item}.onlyDamageAtMost(${value});"
+            "onlyDamageAtMost(${value})"
         ],
         "description": "Most with damage"
     },
     "OnlyDamageBetween":{
         "prefix":"onlydamagebetween",
         "body":[
-            "${item}.onlyDamageBetween(${value1}, ${value2});"
+            "onlyDamageBetween(${value1}, ${value2})"
         ],
         "description": "Damage between with two num"
     },
     "Reuse":{
         "prefix":"reuse",
         "body":[
-            "${item}.reuse(${item});"
+            "reuse(${item})"
         ],
         "description": "Retrun item"
     },
     "TransFormDamage":{
         "prefix":"transformdamage",
         "body":[
-            "${item}.transformDamage(${value});"
+            "transformDamage(${value})"
         ],
         "description": "Make item add damage"
     },
     "DisPlayName":{
         "prefix":"displayname",
         "body":[
-            "${item}.displayName = \"${value}\";"
+            "displayName = \"${value}\";"
         ],
         "description": "Set item display name"
     },
